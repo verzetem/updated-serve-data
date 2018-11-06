@@ -1,0 +1,26 @@
+{
+  "name": "updated-serve-data",
+  "version": "1.0.0",
+  "description": "Copying the data from the included cohorts dataset:",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ninjames101/updated-serve-data.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ninjames101/updated-serve-data/issues"
+  },
+  "homepage": "https://github.com/ninjames101/updated-serve-data#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "nodemon": "^1.18.6"
+  }
+}
