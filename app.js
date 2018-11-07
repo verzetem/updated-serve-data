@@ -11,7 +11,7 @@ app.use(bodyParser.urlencoded({ extended: false }))
 app.use(cors())
 
 app.get('/', (req, res) => {
-	res.send('🤖')
+	res.json(cohorts)
 })
 
 app.get('/cohorts', (req, res, next) => {
